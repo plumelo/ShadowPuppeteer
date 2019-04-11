@@ -500,11 +500,10 @@ class ShadowPuppeteer extends Helper {
       url = this.options.url + url;
     }
     await this.page.goto(url, { waitUntil: this.options.waitForNavigation });
-		/** FORK **/
-		await this.page.addScriptTag({
-			path: path.join(__dirname, 'node_modules/query-selector-shadow-dom/dist/querySelectorShadowDom.js')
-		});
-		/** ENDFORK **/
+    // inject query-selector-shadow-dom
+    await this.page.addScriptTag({
+      path: require.resolve('query-selector-shadow-dom/dist/querySelectorShadowDom')
+    });
     return this._waitForAction();
   }
 
