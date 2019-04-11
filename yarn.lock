@@ -59,6 +59,11 @@ path-parse@^1.0.5:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+query-selector-shadow-dom@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/query-selector-shadow-dom/-/query-selector-shadow-dom-0.3.2.tgz#9b7d1c267c27f6fab0eab7caa1a9d31f119f2f35"
+  integrity sha512-rZlfu9j8Pc9kIci7rOH6tJ+pka9fxwyQo9VvrZ/2aJhP6rhHQ2IexnGjoLqQD2dsXBN1JdHAiMjXpwAH/qQ36g==
+
 rc@~1.2.7:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"

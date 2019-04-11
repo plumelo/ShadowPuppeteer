@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "query-selector-shadow-dom": "^0.3.2",
     "requireg": "^0.2.1"
   }
 }
