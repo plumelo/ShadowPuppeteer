@@ -1,0 +1,38 @@
+{
+  "name": "shadow-puppeteer",
+  "version": "1.0.0",
+  "description": "A fork of CodeceptJS's Puppeteer helper that queries the shadow DOM.",
+  "main": "ShadowPuppeteer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plumelo/ShadowPuppeteer.git"
+  },
+  "keywords": [
+    "webcomponents",
+    "shadowdom",
+    "web-components",
+    "testing",
+    "acceptance",
+    "end2end",
+    "bdd",
+    "tdd",
+    "codeceptjs"
+  ],
+  "author": "Cristian Necula <virusz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plumelo/ShadowPuppeteer/issues"
+  },
+  "homepage": "https://github.com/plumelo/ShadowPuppeteer#readme",
+  "peerDependencies": {
+    "codeceptjs": "^2.0.8",
+    "puppeteer": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "requireg": "^0.2.1"
+  }
+}
