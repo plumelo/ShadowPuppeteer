@@ -27,6 +27,7 @@ const Popup = require('codeceptjs/lib/helper/extras/Popup');
 const Console = require('codeceptjs/lib/helper/extras/Console');
 const axios = require('axios');
 const fs = require('fs');
+const colors = require('chalk');
 
 
 let puppeteer;
@@ -663,6 +664,11 @@ class ShadowPuppeteer extends Helper {
    */
   async grabTitle() {
     return this.page.title();
+  }
+  
+  async debugLocator(locator) {
+    const elements = await this._locate(locator);
+    console.log(colors.blue(`  Locator '${locator}' matches ${elements.length} element${elements.length === 1 ? '' : 's'}.`));
   }
 
   /**
