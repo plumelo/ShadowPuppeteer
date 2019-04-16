@@ -668,7 +668,7 @@ class ShadowPuppeteer extends Helper {
   
   async debugLocator(locator) {
     const elements = await this._locate(locator);
-    console.log(colors.yellow.bold(`  Locator '${locator}' matches ${elements.length} element${elements.length === 1 ? '' : 's'}.`));
+    console.log(colors.yellow.bold(`      Locator '${locator}' matches ${elements.length} element${elements.length === 1 ? '' : 's'}.`));
   }
 
   /**
